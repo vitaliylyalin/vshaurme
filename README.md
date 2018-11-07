@@ -12,11 +12,10 @@
 
 ### Как помогать
 
-Проект работает на [Django 1.11.1](https://www.djangoproject.comm).
-Сейчас очень нужна помощь с моделированием системы, почитать о котором можно [здесь](https://docs.djangoproject.com/en/1.11/intro/tutorial02/#craeting-models).
+Проект работает на [Django 1.11.1](https://www.djangoproject.com).
+Сейчас очень нужна помощь с моделированием системы, почитать о котором можно [здесь](https://docs.djangoproject.com/en/1.11/intro/tutorial02/#creating-models).
 
 ### Как запускать
-https://www.djangoproject.com/
 Создайте файл local.py в папке vshaurme/settings/ и положите туда переменную 'SECRET_KEY' с любым содержимым.
 После этого установите зависимости из requirements.txt любым удобным вам образом.
 Далее создайте базу данных командой '''python manage.py migrate'''. Вам нужно будет повторять эту команду, если вы будете скачивать обновления нашего кода, в которых база данных будет меняться.
